@@ -21,7 +21,6 @@ public class Ex02_Ref {
 	private int addScore;
 	private double avg;
 	
-	
 	public Ex02_Ref() {
 		
 	}
@@ -105,24 +104,25 @@ public class Ex02_Ref {
 		this.avg = avg;
 	}
 	
-	public Ex02_Ref(String name) {
+	public Ex02_Ref(String name,int java,int db, int html,int js,int css) {
 		this.name = name;
+		this.java = java;
+		this.db = db;
+		this.html = html;
+		this.js = js;
+		this.css = css;
 		setGrade();
 	}
 	
 	public void setGrade() {
 		
-		java = (int)(Math.random()*41+60);
-		db = (int)(Math.random()*41+60);
-		html = (int)(Math.random()*41+60);
-		js = (int)(Math.random()*41+60);
-		css = (int)(Math.random()*41+60);
-		
 		setAddScore(java + db + html + js + css);
 		setAvg(getAddScore() / 5.);
 	}
 	
-
+	public void toPrint() {
+		System.out.printf("¿Ã∏ß : %4s | Java : %3d | DB : %3d | HTML : %3d | JS : %3d | css : %3d | √—¡° : %4d | ∆Ú±’ : %4.2f\n",name,java,db,html,js,css,addScore,avg);
+	}
 	
 	
 	
