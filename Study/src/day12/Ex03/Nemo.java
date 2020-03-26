@@ -24,7 +24,7 @@ public class Nemo extends Figure {
 	
 
 	public void toPrint() {
-		System.out.println("가로 : "+garo+"세로 : "+sero+"넓이 : "+area);
+		System.out.println("가로 : "+garo+"  세로 : "+sero+"  넓이 : "+area);
 	}
 	
 		

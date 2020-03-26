@@ -31,6 +31,6 @@ public class Semo extends Figure {
 	}
 */	
 	public void toPrint() {
-		System.out.println("πÿ∫Ø : "+garo+"≥Ù¿Ã : "+sero+"≥–¿Ã : "+area);
+		System.out.println("πÿ∫Ø : "+garo+"  ≥Ù¿Ã : "+sero+"  ≥–¿Ã : "+area);
 	}
 }

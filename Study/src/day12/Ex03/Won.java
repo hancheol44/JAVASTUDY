@@ -20,7 +20,7 @@ public class Won extends Figure {
 	
 
 	public void toPrint() {
-		System.out.println("반지름 : "+banji+"넓이 : "+area);
+		System.out.println("반지름 : "+banji+"  넓이 : "+area);
 	}
 	
 }

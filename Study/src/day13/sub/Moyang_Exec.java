@@ -22,34 +22,27 @@ public class Moyang_Exec {
 		}
 		
 		ArrayList mlist = new ArrayList();
+		
 		for(int i = 0 ; i < 10 ; i++) {
+			
 			int no = (int)(Math.random()*(3-1+1)+1);
+			
 			Moyang f = null;
+			
 			if(no == 1) {
 				f = new Sagak(((int[]) list2.get(i))[0],((int[]) list2.get(i))[1]);
 			} else if(no == 2) {
 				f = new Samgak(((int[]) list2.get(i))[0],((int[]) list2.get(i))[1]);
-				
 			} else {
 				f = new Dongle(((int[]) list2.get(i))[0]);
 			}
-			
 			mlist.add(f);
-			
 		}
 		
 		for(Object o : mlist) {
 			Moyang f = (Moyang) o;
 			f.toPrint();
 		}
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 	}
