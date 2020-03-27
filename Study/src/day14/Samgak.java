@@ -8,10 +8,10 @@ public class Samgak {
     private int sero;
 	private double area;
 	
-	public Samgak() throws NumberFormatException {
+	public Samgak(int garo, int sero) throws NumberFormatException {
+		
 		this.garo = garo;
 		this.sero = sero;
-		
 		
 		setArea();
 		toString();
@@ -30,7 +30,6 @@ public class Samgak {
 	// 가로가 같으면 같은 삼각형이 되도록 
 	public boolean equals(Object obj) {
 		boolean bool = false;
-		
 		
 		Samgak s1 = (Samgak) obj;
 		
