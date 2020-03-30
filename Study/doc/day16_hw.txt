@@ -1,0 +1,40 @@
+숙제 1]
+
+	Calendar 클래스의 
+	
+		1. set()     - 날짜 설정하기
+			
+			형식 ] 
+				
+				Calendar.set(Calendar 필드값, 설정하고자 하는 값)	
+				또는 한번에 
+				Calendar.set( YEAR 값, MONTH값 , DAY값 , HOUR_OF_DAT값, MINUTE값, SECOND값)
+					   
+		2. getTimeInMillis()
+				두 날짜간의 차이를 정확하게 구하고 싶을 때 활용한다. (천분의 일초 단위까지 반환)
+				Calendar.getInstance() 로 할 경우 오차가 생길 수 있기때문
+				
+		3. getActualMaximum()
+				입력하는 날짜의 말일을 구하는 함수 
+				
+		4. add()
+				특정 날짜 또는 시간을 기점으로 해서 일정 기간 전후의 날짜와 시간을 알아낼 수 있다.
+				
+		5. roll()
+				지정한 필드의 값을 증가 또는 감소시킬 수 있음. add와의 차이점은 
+				다른 필드에 영향을 미치지 않는다는 것.
+				
+		6. after() & before()
+				시간상의 전후 알기
+				두 날짜간의 차이가 양수인지 음수인지 판단
+		
+	
+	를 의미와 사용법을 공부하세요.
+	
+
+숙제 2]
+	
+	Vector, ArrayList의 함수들의 10개 정도 의미와 사용법을 공부해오세요...!
+	
+		hw 패키지의 Day16_02 참고!
+	
