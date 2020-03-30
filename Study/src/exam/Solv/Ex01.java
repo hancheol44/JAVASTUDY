@@ -19,7 +19,7 @@ public class Ex01 {
 		
 	// 길이로 사용할 변수 선언
 	int len = 0;
-	
+	 
 	while(true) {
 		// 숫자형태의 문자열 입력받고 
 		String snum = JOptionPane.showInputDialog("배열의 길이를 입력하세요!!!");

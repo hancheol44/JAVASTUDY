@@ -7,6 +7,7 @@ package exam;
 	  단, 합을 구하는 기능은 함수를 만들어서 처리하세요. 
  */
 import javax.swing.*;
+
 import java.util.*;
 
 public class Ex01 {
@@ -22,10 +23,10 @@ public class Ex01 {
 		
 		int alladd = addArray(Array);
 		
-		System.out.println("만들어진 배열의 길이는 : "+str);
-		System.out.println("만들어진 배열은 : "+ Arrays.toString(Array));
-		System.out.println("만들어진 배열 각 숫자의 총합은  : "+alladd);
+		JOptionPane.showMessageDialog(null, "만들어진 배열의 길이 : "+str+"\n배열의 구성 :"+Arrays.toString(Array)
+										+"\n배열에 생성된 숫자의 총합 : "+alladd);
 		
+		 
 	}
 	
 	
