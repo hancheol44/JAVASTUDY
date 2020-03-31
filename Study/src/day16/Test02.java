@@ -9,7 +9,7 @@ import java.util.*;
 import javax.swing.JOptionPane;
 
 public class Test02 {
-
+  
 	public Test02() {
 		// Calendar 클래스로 현재 시간을 기억한 변수를 만들어보자.
 		Calendar cal = Calendar.getInstance();

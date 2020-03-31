@@ -28,7 +28,37 @@
 				시간상의 전후 알기
 				두 날짜간의 차이가 양수인지 음수인지 판단
 		
+---------------------------------------------------------------------------------------------	
 	
+		1. set()
+			밸류 세팅(년,월,일,시간,분,초)
+				set(int year, int month, int date, int hourOfDay, int minute, int second)
+				
+		2. getTimeInMillis()
+			milliseconds를 리턴해줌
+				setTimeInMillis(long millis)
+			
+		3. getActualMaximum()
+			캘린더 필드에서 반환할 수 있는 가장 큰 값을 반환
+				getActualMaximum(int field)
+			
+		4. add()
+			캘린더 필드의 지정된 날의 증감계산
+				add(int field, int amount)
+			
+		5. roll()
+			큰 필드의 변화 없이 지정된 캘린더 필드의 양을 증감계산
+				roll(int field, int amount)
+			
+		6. after()
+			오브젝트에 지정된 시간 이후 시간이 맞는지
+				after(Object when)
+			
+		7. before()
+			오브젝트에 지정된 시간 이전 시간이 맞는지
+				before(Object when)
+	
+--------------------------------------------------------------------------------------------	
 	를 의미와 사용법을 공부하세요.
 	
 
@@ -38,3 +68,38 @@
 	
 		hw 패키지의 Day16_02 참고!
 	
+   Vector
+	 
+	 	1. addElement(E obj)
+	 		Vector 의 끝에 구성요소를 추가함, 사이즈를 1증가.
+	 	
+	 	2. elementAt(int index)
+	 		구성요소의 인덱스를 반환
+	 		
+	 	3. firstElement()
+	 		구성요소 제일 첫번째(인덱스 0번)을 반환해줌
+	 		
+	 	4. replaceAll(UnaryOperator<E> operator)
+	 		요소들을 재배치한다.
+	 		
+	 	5. add(E e)
+	 		Vector의 끝에 요소를 추가한다.
+	 		
+	 
+	 ArrayList
+	 
+	 	1. add(int index, E element)
+	 		지정된 위치에 요소를 리스트 안에 추가한다.
+	 		
+	 	2. subList(int fromIndex, int toIndex)
+	 		지정된 부분의 사이에 값을 반환한다.
+	 
+	 	3. trimToSize()
+	 		리스트의 사이즈로 맞춰서 잘라준다.
+	 		
+	 	4. contains(Object o)
+	 		만약 리스트가 구성요소를 포함하고 있다면 true를 반환해준다.
+	 		
+	 	5. ensureCapacity(int miniCapacity)
+	 		필요하다면 최소한의 요소를 담을 수 있게 ArrayList의 길이를 증가시킨다. 
+	 		

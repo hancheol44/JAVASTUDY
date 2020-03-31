@@ -13,6 +13,7 @@ import java.util.*;
 public class Ex01 {
 	
 	public Ex01() {
+		
 		String str = JOptionPane.showInputDialog("원하는 배열길이를 정수로 입력해주세요!");
 		
 		int ArrayNum = Integer.parseInt(str);
@@ -26,10 +27,7 @@ public class Ex01 {
 		JOptionPane.showMessageDialog(null, "만들어진 배열의 길이 : "+str+"\n배열의 구성 :"+Arrays.toString(Array)
 										+"\n배열에 생성된 숫자의 총합 : "+alladd);
 		
-		 
 	}
-	
-	
 	
 	public int[] setArray(int...a) {
 		
