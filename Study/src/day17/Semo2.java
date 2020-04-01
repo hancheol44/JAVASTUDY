@@ -17,7 +17,7 @@ public class Semo2 {
 		// 리스트의 내용 중 면적을 한개씩 꺼내서 보고
 		for(Semo s : list) {
 			System.out.print(s.getArea()+" | ");
-		}
+		}  
 		System.out.println();
 		// 정렬을 해보자.
 		Collections.sort(list, new Semo());

@@ -20,7 +20,7 @@ public class Test06 {
 		set.add("flower");
 		set.add("jfla");
 		
-		
+		  
 		// 이 중에서 b로 시작하는 데이터부터 
 		// d로 시작하는 데이터까지만 꺼내서
 		// 새로운 Set을 만들어보자.

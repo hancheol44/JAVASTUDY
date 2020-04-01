@@ -16,7 +16,7 @@ public class Test03 {
 		//꺼내보자
 		for(int i = 0 ; i < 10 ; i++) {
 			System.out.printf("%2d ] %5.0f\n", i+1, list.get(i).getArea() );
-		}
+		}  
 		
 		System.out.println();
 		//향상된 for 명령으로 처리

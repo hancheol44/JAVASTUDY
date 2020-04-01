@@ -17,7 +17,7 @@ public class Samgak {
 	}
 	public void setWidth(int width) {
 		this.width = width;
-	}
+	}  
 	public int getHeight() {
 		return height;
 	}

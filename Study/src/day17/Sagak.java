@@ -12,7 +12,7 @@ public class Sagak implements Comparable {
 		this.height = height;
 		setArea();
 	}
-	
+	  
 	@Override
 	public int compareTo(Object o) {
 		// 이 함수는 Comparable 인터페이스가 가지고 있는 추상함수 이므로 

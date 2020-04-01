@@ -15,7 +15,7 @@ public class NemoTest {
 			set.add(new Nemo(width, height));
 			
 			if(set.size() == 10) break;
-		}
+		}  
 		
 		// 꺼내서 출력하자.
 		Iterator<Nemo> itor = set.iterator();

@@ -15,7 +15,7 @@ public class Test08 {
 		table.put("tel","010-9999-9999");
 		table.put("직업","건물주");
 		table.put("부업","재벌");
-		
+		  
 		/*
 		for(;;) {
 			// 데이터 꺼내기

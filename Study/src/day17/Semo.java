@@ -18,7 +18,7 @@ public class Semo implements Comparator{
 	}
 	public void setWidth(int width) {
 		this.width = width;
-	}
+	}  
 	public int getHeight() {
 		return height;
 	}

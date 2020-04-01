@@ -32,7 +32,7 @@ public class Test02 {
 		Collections.sort(list, new Comparator() {
 			public int compare(Object o1, Object o2) {
 				return ((Samgak)o2).getHeight() - ((Samgak)o1).getHeight();
-			}
+			}  
 		});
 		for(int i = 0 ; i < list.size() ; i++) {
 			System.out.print(list.get(i).getHeight() + " | ");

@@ -12,7 +12,7 @@ public class HwSort01 implements Comparator {
 		// 2. 넓이 비교해서 결과값 얻어내고 
 		int result = (int)(s1.getArea() - s2.getArea());
 		// 3. 결과값 반환해주고 
-		return result;
+		return result;  
 	}
 
 }

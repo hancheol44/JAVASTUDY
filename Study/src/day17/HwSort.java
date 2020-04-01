@@ -14,7 +14,7 @@ public class HwSort implements Comparator{
 	public int compare(Object o1, Object o2) {
 		// 우리는 Sagak 클래스의 width를 기준으로 다시 정렬하고자 한다.
 		// 따라서 매개변수로 입력된 Object 타입의 데이터를 Sagak 클래스로 강제 형변환 해줘야 겠다.
-		
+		   
 		Sagak s1 = (Sagak) o1;
 		Sagak s2 = (Sagak) o2;
 		int result = s1.getWidth() - s2.getWidth();

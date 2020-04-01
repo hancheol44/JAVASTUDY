@@ -15,7 +15,7 @@ public class Test09 {
 		System.out.println("--------------------------");
 		// 키값만 추출하자. keySet()
 		Set<String> key = map.keySet();
-		
+		  
 		// ArrayList 로 변환해서 뽑아보자. Iterator 로 변환해서 사용해도 된다.
 		ArrayList<String> kList = new ArrayList<String>(key);
 		

@@ -19,7 +19,7 @@ public class Test07 {
 			set.add(rnd.nextInt(101));
 			if(set.size() == 10) break;
 		}
-		
+		  
 		// 80 ~ 100 사이의 점수 따로 뽑아서 저장하고 
 		TreeSet<Integer> tScore = (TreeSet<Integer>)set.subSet(80,100);  
 								// subSet() 는 반환값 타입이 SortedSet이므로 강제형변환해준다.

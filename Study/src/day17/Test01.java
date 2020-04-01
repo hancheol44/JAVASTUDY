@@ -19,7 +19,7 @@ public class Test01 {
 		// 이제 이 ArrayList를 정렬해보자.
 		// 정렬하는 방법은 Collections 클래스에 소속된 sort()함수를 호출하면 오름차순 정렬이 될 것이다.
 		Collections.sort(list);
-		
+		    
 		for(Sagak s : list) {
 			System.out.print(s.getArea()+" | ");
 			

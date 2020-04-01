@@ -17,7 +17,7 @@ public class Test04 {
 			System.out.print(s + " | ");
 		}
 		System.out.println();
-		
+		  
 		// 오름차순 정렬해보자.
 		Collections.sort(list);
 		for(String s : list) {
