@@ -1,7 +1,5 @@
 package extra;
 
-import day14.Samgak;
-
 public class Sagak {
 	private int garo,sero,area;
 	
@@ -47,7 +45,7 @@ public class Sagak {
 		
 		Sagak s1 = (Sagak) obj;
 		
-		bool = (this.sero == s1.sero) ? true : false;
+		bool = (this.garo == s1.garo) ? true : false;
 		
 		return bool;
 	}

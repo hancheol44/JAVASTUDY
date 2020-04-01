@@ -9,6 +9,7 @@ package extra;
 		
 		그리고 각각 다른 사각형 5개를 컬렉션에 저장하고 출력하세요.
 		
+		
  */
 
 import java.util.*;
@@ -16,7 +17,20 @@ import java.util.*;
 public class Ex02 {
 
 	public Ex02() {
+		ArrayList<Sagak> list = new ArrayList<Sagak>();
 		
+		for(int i = 0 ; i < 5 ; i++) {
+			int no1 = (int)(Math.random()*(10-1+1)+1);
+			int no2 = (int)(Math.random()*(10-1+1)+1);
+			
+			list.add(new Sagak(no1,no2));
+		}
+		
+		for(Sagak s : list) {
+			System.out.print("garo : "+s.getGaro() + "\tsero : "+s.getSero());
+			System.out.println("\narea : "+s.getArea());
+			
+		}
 	}
 
 	public static void main(String[] args) {
