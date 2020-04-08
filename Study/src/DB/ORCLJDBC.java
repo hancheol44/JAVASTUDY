@@ -33,8 +33,6 @@ public class ORCLJDBC {
 		return getCon("hello","hello");
 	}
 		
-		
-	
 	public Connection getCon(String user, String pw) {
 		Connection con = null;
 		String url = "jdbc:oracle:thin:@localhost:1521:orcl";
@@ -48,7 +46,7 @@ public class ORCLJDBC {
 	}
 		
 // Statement 얻어오는 함수 
-	public Statement getSTMT() {
+	public Statement getSTMT(Connection con2) { // test01 매개변수 설정됨(2020.04.07)
 		Statement stmt = null;
 		try {
 			stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
