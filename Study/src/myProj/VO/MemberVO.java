@@ -5,7 +5,7 @@ import java.text.*;
 
 public class MemberVO {
 	private int mno, ano;
-	private String name, id, pw, mail, tel, gen, avatar, sDate;
+	private String name, id, pw, mail, tel, gen, avatar, sDate; // sDate -> String 인 이유는 우리가 볼 때 편하기위해서 
 	private Date joinDate;  // jdbc에서는 데이터베이스의 날짜데이터를 가져올 때 날짜와 시간을 분리해서 가져와야 한다.
 	private Time joinTime;
 	public int getMno() {

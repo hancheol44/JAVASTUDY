@@ -25,9 +25,6 @@ public class ORCLJDBC {
 		}
 	}
 			
-		
-	
-	
 // 커넥션 얻어오는 함수 
 	public Connection getCon() {
 		return getCon("hello","hello");

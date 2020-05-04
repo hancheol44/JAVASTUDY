@@ -1,7 +1,7 @@
 package day01;
 
 public class Test02 {
-	public static void main(String[] args) {
+	public static void main(String[] args) { // 진입점 함수(메인메소드)
 		/*
 		 	변수 만드는 형식
 		 	
@@ -13,6 +13,22 @@ public class Test02 {
 		 		2.
 		 		[접근지정자] [속성] 데이터타입 변수이름 = 데이터;  ← 변수선언 & 초기화
 		 */
+		/*
+		 	자바 기본 데이터 타입 8가지
+		 	boolean - 논리형
+		 	char - 문자형
+		 	byte  - 정수형
+		 	short
+		 	int
+		 	long
+		 	
+		 	float - 실수형
+		 	double 
+		 	
+		 */
+		// 주석 public static void main(String[] args){
+		
+		//		}
 		
 		// 형변환 
 		double no1 = 3.14;

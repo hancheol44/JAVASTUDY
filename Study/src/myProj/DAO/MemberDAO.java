@@ -16,7 +16,7 @@ public class MemberDAO {
 	// 이 클래스는 데이터베이스 처리작업을 위한 클래스이므로 기본적으로
 	// 데이터베이스 드라이버로딩과 같은 작업은 
 	// 이 클래스가 객체가 되는 순간 이루어 지는것이 편할 것이다.
-	ORCLJDBC db ;
+	ORCLJDBC db;
 	Connection con;
 	Statement stmt;
 	PreparedStatement pstmt;
@@ -34,7 +34,7 @@ public class MemberDAO {
 	// 회원가입 데이터베이스 처리 전담 함수 
 	public int addMember(MemberVO vo) {
 		int cnt = 0; // 반환값 변수 만들고
-		// 이 작업은 VO에 담긴 내용을 꺼내서 질의명령에 채웟 보내면 된다.
+		// 이 작업은 VO에 담긴 내용을 꺼내서 질의명령에 채워 보내면 된다.
 		// 따라서 PreparedStatement가 필요할 것이다.
 		
 		// 먼저 필요한 질의명령 가져오고
